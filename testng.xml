@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite" >
+<test name="ModuleOne">
+<parameter name="browser" value="edge"/>
+<parameter name="uname" value="tomsmith"/>
+<parameter name="pwd" value="SuperSecretPaasword!"/>
+<classes>
+  <class name="testScripts.LoginTest"/>
+  </classes>
+  </test><!-- ModuleOneTest -->
+  </suite><!-- SampleSuite -->
+  
